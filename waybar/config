@@ -1,0 +1,80 @@
+{
+	"layer": "top",
+	"modules-left": ["river/tags"],
+	"modules-center": [],
+	// add network module if you want
+	"modules-right": [ "tray", "network", "custom/cpu","custom/mem","backlight","pulseaudio", "custom/mic","custom/clock","custom/time","battery",],
+	
+	"pulseaudio": {
+		"tooltip": false,
+		"scroll-step": 5,
+		"format": "{icon} {volume}%",
+		"format-muted": " {volume}%",
+		"on-click":"pactl set-sink-mute @DEFAULT_SINK@ toggle",
+		"scroll-step": 5,
+		"format-icons": {
+			"default": ["", "", ""]
+		}
+	},
+
+    "river/tags": {
+        "tag-labels":[
+			"",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+		],
+		"disable-click": false
+    },
+	"network": {
+		"tooltip": false,
+		"format-wifi": "  {essid}",
+		"format-ethernet": ""
+	},
+	"backlight": {
+		"tooltip": false,
+		"format": " {}%",
+		"interval":1
+	},
+    "battery": {
+        "states": {
+            "good": 100,
+            "warning": 30,
+            "critical": 20
+        },
+        "format": "{icon}  {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+	"tray":{
+		"icon-size":18,
+		"show-passive-items":true,
+		"spacing": 10
+	},
+    "custom/clock": {
+        "interval": 1,
+        "return-type": "string",
+        "exec": "~/.config/waybar/modules/datetime.sh",
+        "tooltip": false
+    },
+	"custom/cpu": {
+		"interval": 1,
+        "return-type": "string",
+        "exec": "~/.config/waybar/modules/cpu.sh",
+        "tooltip": false
+	},
+	"custom/mem": {
+		"interval": 1,
+        "return-type": "string",
+        "exec": "~/.config/waybar/modules/mem.sh",
+        "tooltip": false
+	}
+}
+
