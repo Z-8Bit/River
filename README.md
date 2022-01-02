@@ -1,6 +1,8 @@
 ## Riverwm dotfiles.
 
 ![image](https://user-images.githubusercontent.com/72144072/147874140-939903ad-ff33-4733-bfde-fcd4380e58aa.png)
+![image](https://user-images.githubusercontent.com/72144072/147877926-2061d1b4-1ee6-4f19-8ea8-9f7526d0e0dc.png)
+
 
 ## Setting up 
 
