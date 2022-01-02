@@ -10,3 +10,6 @@
 4. Type the sudo password whenever asked.
 5. Enjoy your new River setup!
 
+### Credits
+
+A massive thanks to my good friend Zenith[https://github.com/Shinyzenith/.dotfiles] for his configs and helping out with every error I faced.
