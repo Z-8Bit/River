@@ -1,5 +1,5 @@
 killall swaybg
-swaybg -i $(find Pictures/. -type f | shuf -n1) -m fill &
+swaybg -i $(find Pictures/Wallpapers/. -type f | shuf -n1) -m fill &
 
 killall dunst
 dunst &
