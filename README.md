@@ -12,4 +12,4 @@
 
 ### Credits
 
-A massive thanks to my good friend Zenith[https://github.com/Shinyzenith/.dotfiles] for his configs and helping out with every error I faced.
+A massive thanks to my good friend (Zenith)[https://github.com/Shinyzenith] for his configs and helping out with every error I faced.
