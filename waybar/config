@@ -1,9 +1,9 @@
 {
 	"layer": "top",
-	"modules-left": ["river/tags"],
+	"modules-left": ["river/tags", "tray"],
 	"modules-center": [],
-	// add network module if you want
-	"modules-right": [ "tray", "network", "custom/cpu","custom/mem","backlight","pulseaudio", "custom/mic","custom/clock","custom/time","battery",],
+	"modules-right": [ "network", "custom/cpu","custom/mem", "pulseaudio", "custom/mic","custom/clock","custom/time","battery"],
+// "modules-right": [ "network", "custom/cpu","custom/mem", "backlight","pulseaudio", "custom/mic","custom/clock","custom/time","battery"],
 	
 	"pulseaudio": {
 		"tooltip": false,
@@ -29,7 +29,8 @@
             "",
             ""
 		],
-		"disable-click": false
+		"disable-click": false,
+		"num-tags": 7
     },
 	"network": {
 		"tooltip": false,
