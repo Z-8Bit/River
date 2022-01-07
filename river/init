@@ -49,7 +49,7 @@ riverctl map normal $mod M spawn "alacritty -e mocp"
 riverctl map normal $mod+Shift R spawn "~/.config/river/init"
 
 # Screenshot
-riverctl map normal None Print spawn 'IMG=/tmp/$(date | sed "s/\s/-/g" | sed "s/--/-/g").png && grim -g "$(slurp)" $IMG && cat $IMG | wl-copy && rm -rf $IMG && notify-send "Screenshot Clipped"'
+riverctl map normal None Print spawn 'grim -g "$(slurp)" -| wl-copy && notify-send "Screenshot Clipped"'
 
 # Fullscreen
 riverctl map normal Shift Print spawn 'IMG=/tmp/$(date | sed "s/\s/-/g" | sed "s/--/-/g").png && grim $IMG && cat $IMG | wl-copy && rm -rf $IMG && notify-send "Full-Screenshot Taken"'
