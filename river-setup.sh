@@ -29,6 +29,10 @@ sudo cp ~/Downloads/River/scripts/*.sh /usr/bin/
 git clone https://github.com/Z-8Bit/Wallpapers ~/Pictures/Wallpapers
 RED='\033[0;31m'
 
+# sudo pacman -S refind && refind-install
+# git clone https://github.com/josephsurin/refind-theme-circle.git && sudo rm -r ./refind-theme-circle/{screenshots,.git}
+# sudo cp -r refind-theme-circle /boot/efi/EFI/refind/ && sudo echo "include refind-theme-circle/theme.conf" >> /boot/efi/EFI/refind/refind.conf
+
 sleep 5
 echo -e "${RED}PLEASE REBOOT NOW"
 
