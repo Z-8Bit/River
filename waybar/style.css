@@ -30,7 +30,7 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	/*background: #2E3440;*/
-	background: #111318;
+	background: #1a1e25;
 	transition: none;
 }
 
@@ -166,17 +166,6 @@ window#waybar.hidden {
 	color: #2e3440;
 	background: #f993a9;
 }
-#custom-time{
-	margin-top: 6px;
-	margin-left: 8px;
-	padding-left: 10px;
-	margin-bottom: 0px;
-	padding-right: 10px;
-	border-radius: 15px;
-	transition: none;
-	color: #2e3440;
-	background: #ffb18f;
-}
 #custom-cpu {
 	margin-top: 6px;
 	margin-left: 8px;
@@ -199,5 +188,5 @@ window#waybar.hidden {
 	transition: none;
 	color: #D8DEE9;
 	/*background: #4C566A;*/
-	background: #111318;
+	background: #1a1e25;
 }

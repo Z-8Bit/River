@@ -2,8 +2,7 @@
 	"layer": "top",
 	"modules-left": ["river/tags", "tray"],
 	"modules-center": [],
-	"modules-right": [ "network", "custom/cpu","custom/mem", "pulseaudio", "custom/mic","custom/clock","custom/time","battery"],
-// "modules-right": [ "network", "custom/cpu","custom/mem", "backlight","pulseaudio", "custom/mic","custom/clock","custom/time","battery"],
+	"modules-right": [ "network", "custom/cpu","custom/mem", "pulseaudio", "custom/mic","custom/clock","battery"],
 	
 	"pulseaudio": {
 		"tooltip": false,
@@ -11,7 +10,6 @@
 		"format": "{icon} {volume}%",
 		"format-muted": " {volume}%",
 		"on-click":"pactl set-sink-mute @DEFAULT_SINK@ toggle",
-		"scroll-step": 5,
 		"format-icons": {
 			"default": ["", "", ""]
 		}
