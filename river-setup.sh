@@ -3,8 +3,8 @@ git clone https://aur.archlinux.org/paru-bin.git
 cd paru
 makepkg -si
 
-paru -S --noconfirm alacritty backlight_control bluez bluez-utils blueman btop cmatrix discord dunst figlet firefox-developer-edition fluent-cursor-theme-git github-desktop-bin grim gvfs htop libappindicator-gtk2 lolcat lollypop lxappearance maim moc mpv
-multimc-bin neofetch nerd-fonts-jetbrains-mono network-manager-applet nitrogen noto-fonts-emoji ntfs-3g pamixer pavucontrol polkit-gnome pcmanfm pipewire pipewire-alsa pipewire-pulse python-dbus powertop python-gobject qbittorrent-dark-git qogir-gtk-theme-git river rofi-lbonn-wayland-git spotify spotify-adblock slurp stacer-git teams-for-linux tela-icon-theme-bin thunar ttf-unifont ttf-ms-fonts viewnior vscodium-bin waybar-git wireplumber wl-clipboard whatsapp-nativefier-dark zoom
+paru -S --noconfirm alacritty backlight_control bluez bluez-utils blueman btop cmatrix discord dunst firefox-developer-edition fluent-cursor-theme-git github-desktop-bin grim gvfs htop libappindicator-gtk2 lollypop lxappearance maim moc mpv
+multimc-bin neofetch nerd-fonts-jetbrains-mono network-manager-applet nitrogen noto-fonts-emoji ntfs-3g pamixer pavucontrol polkit-gnome pcmanfm pipewire pipewire-alsa pipewire-pulse python-dbus powertop qbittorrent-dark-git qogir-gtk-theme-git river rofi-lbonn-wayland-git spotify spotify-adblock slurp teams-for-linux tela-icon-theme-bin thunar ttf-unifont ttf-ms-fonts viewnior vscodium-bin waybar-git wireplumber wl-clipboard whatsapp-nativefier-dark zoom
 
 for service in bluetooth NetworkManager; do
   sudo systemctl enable --now $service
